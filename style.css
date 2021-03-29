@@ -1,0 +1,175 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+header{
+    background-color: #424242;
+    position: fixed;
+}
+.container {
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  .row {
+    margin: 0 -15px;
+    display: flex;
+  }
+  
+  [class*="col-"] {
+    padding: 0 15px;
+  }
+  
+  .col-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  
+  .col-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  
+  .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .col-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  
+  .col-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .col-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  
+  .col-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  
+  .col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  
+  .col-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  
+  .col-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  
+  .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  header{
+      width: 100%;
+      height: 80px;
+  }
+  .header-logo{
+      background: url(https://www.pin-upua.com/asset/img/assets/header/logo_casino.svg) no-repeat center;
+      width: 180px;
+      height: 75%;
+      display: block;
+      margin-left: 25px;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      background-size: contain!important;
+      z-index: 5000;
+      cursor: pointer;
+  }
+  .top__row{
+      height: 45px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  .bottom__row{
+      height: 35px;
+      width: 100%;
+  }
+  .header-rows{
+      flex-direction: column;
+  }
+  .top__row{
+      display: flex;
+      justify-content: flex-end;
+  }
+  .top__row::before{
+    content: "";
+    width: 250px;
+    height: 1px;
+    background-color: #656565;
+    top: 56%;
+    position: absolute;
+    right: 0;
+    width: calc(100% - 250px);
+  }
+  .enter__button{
+    line-height: 35px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 6px;
+    white-space: nowrap;
+    width: 65px;
+    padding: 0 12px;
+    margin: 0px 4px 0px 0px;
+    cursor: pointer;
+    outline: none;
+  }
+  .button_green{
+    background: -webkit-gradient(linear,left top,left bottom,from(#50c5ac),color-stop(50%,#3fa18d),to(#2e7f70));
+    background: -webkit-linear-gradient(top,#50c5ac 0,#3fa18d 50%,#2e7f70 100%);
+    background: linear-gradient(to bottom,#50c5ac 0,#3fa18d 50%,#2e7f70 100%);
+    border: 1px solid #55a399;
+    color: #fff;
+  }
+  .button_red {
+    background: -webkit-gradient(linear,left top,left bottom,from(#de3c21),to(#b41b0f));
+    background: -webkit-linear-gradient(top,#de3c21 0,#b41b0f 100%);
+    background: linear-gradient(to bottom,#de3c21 0,#b41b0f 100%);
+    border: 1px solid #bc2502;
+}
+  .registration__button{
+      cursor: pointer;
+      width: 120px;
+      border-radius: 6px;
+      line-height: 35px;
+      height: 35px;
+      font-size: 16px;
+      color: #fff;
+      padding: 0 12px;
+      margin-right: 25px;
+      outline: none;
+      white-space: nowrap;
+  }
+  .h-line{
+      height: 1px;
+      background-color: grey;
+      border: none;
+      padding-left: 200px;
+      width: 500px;
+  }
+
+  
